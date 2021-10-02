@@ -1,7 +1,9 @@
+import Container from "../../components/Container/Container";
+
 const Home = () => {
     return (
         <main>
-            <h1>Bienvenido a Covipartners</h1>
+            <Container/>
         </main>
     )
 }

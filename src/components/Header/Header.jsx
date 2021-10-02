@@ -1,13 +1,11 @@
 import './Header.css'
-import { PageHeader} from 'antd';
-const Header = () => {
+
+const HeaderApp = () => {
     return (
-        <PageHeader
-            className="site-page-header"
-            title="Home"
-            subtitle="Bienvenido"
-        />
+        <header className='header'>
+            <h1>Covidpartners</h1>
+        </header>
     )
 }
 
-export default Header;
+export default HeaderApp;

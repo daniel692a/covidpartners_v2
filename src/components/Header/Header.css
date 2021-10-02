@@ -1,8 +1,9 @@
 .header{
-    background-color: #8ECAE6;
+    background-color: #FB8500;
     padding: 2rem;
 }
 .header h1{
     text-align: center;
     font-size: 3rem;
+    color: #fff;
 }

@@ -1,4 +1,4 @@
-import Header from './components/Header/Header';
+import HeaderApp from './components/Header/Header';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Data from './pages/Data/Data';
@@ -6,7 +6,7 @@ import Data from './pages/Data/Data';
 function App() {
   return (
     <Router>
-      <Header />
+      <HeaderApp />
       <Switch>
         <Route exact path="/">
           <Home />
