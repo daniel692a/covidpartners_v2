@@ -14,6 +14,10 @@ const Form = () => {
                     <span>Dato 2:</span>
                     <input type="text" placeholder="Dato 2" name="d2" />
                 </label>
+                <label htmlFor="d3" className="inputs">
+                    <span>Dato 2:</span>
+                    <input type="text" placeholder="Dato 3" name="d3" />
+                </label>
                 <input type="submit" value="Enviar" />
             </form>
         </section>
