@@ -5,7 +5,7 @@ const Container = () => {
     return (
         <section className="ctn">
             <section className="sect">
-                <h2>Bienvenido a Covidpartners</h2>
+                <h2>Bienvenido a Covipartners</h2>
                 <Link to="/consult">
                     <button>Ingresar</button>
                 </Link>

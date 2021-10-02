@@ -1,8 +1,9 @@
+import Form from '../../components/Form/Form'
 const Data = () => {
     return (
-        <main>
-            <h1>Consulte Datos</h1>
-        </main>
+        <>
+            <Form />
+        </>
     )
 }
 
