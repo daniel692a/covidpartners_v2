@@ -1,12 +1,12 @@
 import './Container.css'
 import { Link } from 'react-router-dom'
 
-const Container = () => {
+const Container = ({text, routeLink}) => {
     return (
         <section className="ctn">
             <section className="sect">
-                <h2>Bienvenido a Covipartners</h2>
-                <Link to="/consult">
+                <h2>{text}</h2>
+                <Link to={routeLink}>
                     <button>Ingresar</button>
                 </Link>
             </section>

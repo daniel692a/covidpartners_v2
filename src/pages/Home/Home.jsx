@@ -13,7 +13,14 @@ const Home = () => {
                     Covid-19 Calculate the risk
                 </h1>
             </section>
-            <Container/>
+            <Container
+                text="Consultar Riesgo"
+                routeLink="/consult"
+            />
+            <Container
+                text="Ir al mapa"
+                routeLink="/map-view"
+            />
         </main>
     )
 }
