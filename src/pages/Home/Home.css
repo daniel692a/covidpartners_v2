@@ -1,0 +1,31 @@
+.presentation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    background-color: #e8e8e8;
+    opacity: 0.6;
+    background: repeating-linear-gradient( 45deg, #FFB703, #FFB703 5px, #e8e8e8     5px, #e8e8e8 25px );
+}
+.presentation h1{
+    font-size: 5rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.presentation figure {
+    width: 50rem;
+}
+.presentation figure img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .presentation figure {
+        width: 30rem;
+    }
+    .presentation h1{
+        font-size: 3rem;
+    }
+}
