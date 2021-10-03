@@ -38,7 +38,7 @@ const Map = () => {
                     <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    fill={cur ? colorScale(cur.unemployment_rate) : "#EEE"}
+                    fill={cur ? colorScale(cur.unemployment_rate) : "#023047"}
                     />
                 );
             })
